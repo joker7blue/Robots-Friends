@@ -1,5 +1,6 @@
 {
   "name": "reactstarter",
+  "homepage": "https://joker7blue.github.io/Robots-Friends",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,7 +12,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -31,6 +32,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://github.com/joker7blue/Robots-Friends"
+  }
 }
