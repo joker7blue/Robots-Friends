@@ -46,7 +46,7 @@ class App extends Component {
           &copy; 2020 All rights reserved <br/>
           <span className="f5">Powered by <a target="blank" href="https://github.com/joker7blue" style={{color: "orange"}}>Joker7Blue</a></span>
         </footer>
-
+    
       </div>
     )
   }
