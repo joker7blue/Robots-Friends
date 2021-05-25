@@ -15,7 +15,7 @@ jobs:
       - checkout # check out the code in the project directory
       - run: echo "running test"
       - run: npm install
-      - run: npm test
+      - run: npm test --passWithNoTests
   hithere:
     docker:
       - image: cimg/node:14.10.1 # the primary container, where your job's commands are run
