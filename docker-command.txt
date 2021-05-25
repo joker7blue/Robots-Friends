@@ -1,12 +1,37 @@
 
+************************************** BUILD *********************************************************
+
 BUILD CONTAINER 1 ==========> sudo docker build -t robotsfriendscontainer .
 
-RUN CONTAINER 1 ==========> sudo docker run -it robotsfriendscontainer
+******************************************************************************************************
+
+
+
+************************************** RUN *********************************************************
+
+RUN CONTAINER 1                 ==========> sudo docker run -it robotsfriendscontainer
 
 RUN CONTAINER 2 (IN BACKGROUND) ==========> sudo docker run -it -d robotsfriendscontainer
 
-RUN CONTAINER 3 ==========> sudo docker run -it robotsfriendscontainer /bin/bash
+RUN CONTAINER 3                 ==========> sudo docker run -it robotsfriendscontainer /bin/bash
 
-EXECUTE (MAY BE ITS ALREADY RUNNIG) ======> sudo docker exec -it hash bash   ( do a "docker ps"to have hash or containerID)
+RUN CONTAINER 4 (WITH PORT BINDING)    ==========> sudo docker run -it -p 3000:3000 robotsfriendscontainer
+
+******************************************************************************************************
+
+
+
+************************************** EXECUTE *******************************************************
+
+EXECUTE (MAY BE ITS ALREADY RUNNIG) =====> sudo docker exec -it hash bash   ( do a "docker ps"to have hash or containerID)
+
+******************************************************************************************************
+
+
+
+
+************************************** STOP *********************************************************
 
 STOP CONTAINER =======> docker stop hash
+
+******************************************************************************************************
