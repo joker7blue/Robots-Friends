@@ -1,3 +1,11 @@
 FROM node:14.17
 
-CMD ['/bin/bash']
+WORKDIR /user/src/robotsfriends
+
+COPY ./ ./
+
+RUN echo " =================************* RUNNING NPM INSTALL *************================= "
+
+RUN npm install
+
+CMD ["/bin/bash"]
