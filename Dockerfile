@@ -6,6 +6,7 @@ COPY ./ ./
 
 RUN echo " =================************* RUNNING NPM INSTALL *************================= "
 
+
 RUN npm install
 
 CMD ["/bin/bash"]
