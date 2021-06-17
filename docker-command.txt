@@ -21,7 +21,7 @@ RUN CONTAINER 4 (WITH PORT BINDING)    ==========> sudo docker run -it -p 3000:3
 
 
 
-************************************** EXECUTE *******************************************************
+************************************** EXECUTE ******************************************************
 
 EXECUTE (MAY BE ITS ALREADY RUNNIG) =====> sudo docker exec -it hash bash   ( do a "docker ps"to have hash or containerID)
 
