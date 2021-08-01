@@ -32,6 +32,6 @@ EXECUTE (MAY BE ITS ALREADY RUNNIG) =====> sudo docker exec -it hash bash   ( do
 
 ************************************** STOP *********************************************************  
 
-STOP CONTAINER =======> docker stop hash
+STOP CONTAINER =======> docker stop hash 
 
 ******************************************************************************************************
