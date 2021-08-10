@@ -1,6 +1,6 @@
 FROM node:14.17
 
-WORKDIR /user/src/robotsfriends
+WORKDIR /user/src/robotsfriends 
 
 COPY ./ ./
 
