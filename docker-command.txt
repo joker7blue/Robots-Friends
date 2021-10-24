@@ -1,7 +1,7 @@
 
 ************************************** BUILD ********************************************************
 
-BUILD CONTAINER 1 ==========> sudo docker build -t robotsfriendscontainer .
+BUILD CONTAINER 1 ==========> sudo docker build -t robotsfriendscontainer . 
 
 ******************************************************************************************************
 
