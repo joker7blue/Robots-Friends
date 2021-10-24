@@ -13,7 +13,7 @@ RUN CONTAINER 1                 ==========> sudo docker run -it robotsfriendscon
 
 RUN CONTAINER 2 (IN BACKGROUND) ==========> sudo docker run -it -d robotsfriendscontainer
 
-RUN CONTAINER 3                 ==========> sudo docker run -it robotsfriendscontainer /bin/bash
+RUN CONTAINER 3                 ==========> sudo docker run -it robotsfriendscontainer /bin/bash 
 
 RUN CONTAINER 4 (WITH PORT BINDING)    ==========> sudo docker run -it -p 3000:3000 robotsfriendscontainer
 
